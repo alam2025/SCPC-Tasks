@@ -22,7 +22,7 @@ const mostFrequentElement = (inputArray) => {
       return [maxCount, maxElement]
 }
 
-const inputElement = [2, 3, 54, 3, , 3, 3, 4, 5, , 3, 3, 2, 2, 2,2,2,2];
+const inputElement = [2, 3, 54, 3, , 3, 3, 4, 5, , 3, 3, 2, ,2];
 const [maxCount,maxElement] = mostFrequentElement(inputElement);
 console.log(` Max frequent Element is ${maxElement} . Number of ${maxCount} times. `);
 
